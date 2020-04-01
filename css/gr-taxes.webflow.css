@@ -1,0 +1,311 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: GR-Taxes, sans-serif;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: GR-Taxes, sans-serif;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: GR-Taxes, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+h6 {
+  position: static;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 7px;
+  background-color: #ffe8d4;
+  font-family: GR-Taxes, sans-serif;
+  color: #141942;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 27px;
+}
+
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #141942;
+}
+
+.body {
+  font-family: 'PT Sans', sans-serif;
+  color: #1b1b1b;
+}
+
+.nav-link {
+  font-family: GR-Taxes, sans-serif;
+  color: #ffe8d4;
+  text-decoration: none;
+}
+
+.section {
+  padding-top: 57px;
+  padding-bottom: 57px;
+  background-color: #141942;
+}
+
+.intro-heading {
+  color: #f7bc66;
+}
+
+.intro-container {
+  padding-right: 400px;
+}
+
+.section-2 {
+  background-color: #141942;
+}
+
+.grid {
+  grid-column-gap: 27px;
+  grid-row-gap: 27px;
+  grid-template-areas: ". Area";
+  background-color: transparent;
+}
+
+.box-teaser {
+  position: relative;
+  height: auto;
+  padding: 57px;
+  background-color: #f7bc66;
+}
+
+.box-teaser-label {
+  position: static;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: 32px;
+  z-index: auto;
+  display: inline;
+  margin-right: 0px;
+  margin-left: 0px;
+  float: none;
+  clear: both;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.box-teaser-p {
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.heading-2 {
+  margin-top: 0px;
+}
+
+.box-teaser-heading {
+  margin-top: 27px;
+}
+
+.div-block {
+  background-image: url('../images/headshot.jpg');
+  background-position: 0% 50%;
+  background-size: cover;
+}
+
+.mini-teaser {
+  padding: 17px;
+  background-color: #ffe8d4;
+  text-align: right;
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.lista-competencias {
+  margin-top: 17px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  font-family: GR-Taxes, sans-serif;
+  font-size: 12px;
+  line-height: 1.55;
+  list-style-type: none;
+}
+
+.grid-2 {
+  grid-column-gap: 27px;
+  grid-row-gap: 27px;
+}
+
+.mini-teaser-label {
+  display: inline;
+  background-color: #f7bc66;
+  color: #141942;
+}
+
+.text-label {
+  font-weight: 700;
+}
+
+.paragraph {
+  margin-top: 17px;
+  font-size: 12px;
+}
+
+.about-us-section {
+  padding-top: 57px;
+  padding-bottom: 57px;
+  background-color: #f7bc66;
+  text-align: center;
+}
+
+.blue-heading {
+  margin-bottom: 57px;
+  color: #141942;
+}
+
+.paragraph-2 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.container {
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.contact-form {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact-form-grid {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 40px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .contact-form {
+    padding: 40px 20px;
+  }
+}
+
+#w-node-b0fdafea4773-3b22ad7c {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-e0366da2b038-3b22ad7c {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-e0366da2b028-3b22ad7c {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+  #w-node-e0366da2b02c-3b22ad7c {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+  #w-node-e0366da2b030-3b22ad7c {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+  #w-node-e0366da2b034-3b22ad7c {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+}
+
+@font-face {
+  font-family: 'GR-Taxes';
+  src: url('../fonts/3AF00B_0_0.woff2') format('woff2'), url('../fonts/3AF00B_0_0.eot') format('embedded-opentype'), url('../fonts/3AF00B_0_0.woff') format('woff'), url('../fonts/3AF00B_0_0.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
